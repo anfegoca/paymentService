@@ -1,0 +1,42 @@
+component:
+  company: positiva
+  name: smart-supervision
+  version: 1.0.0
+
+server:
+  port: 8080
+  compression:
+    enabled: true
+  error:
+    include-stacktrace: never
+    whitelabel:
+      enabled: true
+  servlet:
+    context-path: /${component.company}-api/${component.name}
+
+logging:
+  level:
+    root: info
+    org.springframework: info
+    com.positiva.ss: info
+
+spring:
+  messages:
+    encoding: UTF-8
+  output:
+    ansi:
+      enabled: always
+  main:
+    banner-mode: log
+    allow-bean-definition-overriding: true
+  thymeleaf:
+    encoding: UTF-8
+    prefix: classpath:/static/
+
+
+status-codes:
+  success:
+    "200":
+      message: Transacción exitosa
+      codes:
+        - SUCCESS

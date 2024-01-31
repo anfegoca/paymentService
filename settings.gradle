@@ -1,0 +1,21 @@
+rootProject.name = "muscle_coach_register"
+include("app")
+
+// Principal module
+include ':application'
+project(':application').projectDir = file('./modules/application')
+
+// Domain modules
+include ':model'
+project(':model').projectDir = file('./modules/domain/model')
+
+include ':use-case'
+project(':use-case').projectDir = file('./modules/domain/use-case')
+
+// Entry points modules
+include ':api-rest'
+project(':api-rest').projectDir = file('./modules/infrastructure/entry-points/api-rest')
+
+// Driven adapters modules
+include ':rest-web-repository'
+project(':rest-web-repository').projectDir = file('./modules/infrastructure/driven-adapters/rest-web-repository')
