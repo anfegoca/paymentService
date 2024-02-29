@@ -18,7 +18,7 @@ logging:
   level:
     root: info
     org.springframework: info
-    com.positiva.ss: info
+    com.survivorsLabs.muscleCoach: info
 
 spring:
   messages:
