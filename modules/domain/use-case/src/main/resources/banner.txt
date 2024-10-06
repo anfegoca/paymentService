@@ -1,8 +1,0 @@
-${AnsiColor.BRIGHT_BLACK}──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-${AnsiColor.BRIGHT_RED} █▀▀█ █▀▀▄  █▀▀▄ ▀▀█▀▀  ${AnsiColor.WHITE}    ${AnsiColor.BRIGHT_BLACK} █▀▄▀█  █▀▀▀█  ${AnsiColor.WHITE}    ${AnsiColor.BRIGHT_BLACK}  █▀▀█  █▀▀█  █▀▀█  █▀▀▄
-${AnsiColor.BRIGHT_RED} █▄▄▀ █  █  █  █   █    ${AnsiColor.WHITE} ▀▀ ${AnsiColor.BRIGHT_BLACK} █ █ █  ▀▀▀▄▄  ${AnsiColor.WHITE} ▀▀ ${AnsiColor.BRIGHT_BLACK}  █▄▄█  █  █  █▄▄▀  █  █
-${AnsiColor.BRIGHT_RED} █  █ █▄▄▀  █▄▄▀   █    ${AnsiColor.WHITE}    ${AnsiColor.BRIGHT_BLACK} █   █  █▄▄▄█  ${AnsiColor.WHITE}    ${AnsiColor.BRIGHT_BLACK}  █     ▀▀█▄  █  █  █▄▄▀
-${AnsiColor.BRIGHT_BLACK}────────────────────────── Specific Component ────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-${AnsiStyle.NORMAL}Copyrigth ${AnsiStyle.BOLD}@2023${AnsiStyle.NORMAL}. Positiva. ${AnsiStyle.ITALIC}Todos los derechos reservados.${AnsiStyle.NORMAL}
-Versión: ${AnsiStyle.BOLD}${component.version}
-${AnsiStyle.NORMAL}
